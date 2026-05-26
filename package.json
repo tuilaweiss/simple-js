@@ -1,0 +1,16 @@
+{
+  "name": "simple-js",
+  "version": "1.0.0",
+  "description": "Simple JavaScript framework",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "simplejs": "./bin/simplejs.js"
+  },
+  "scripts": {
+    "start": "node bin/simplejs.js",
+    "test": "node tests/test.js"
+  },
+  "author": "0verdosed",
+  "license": "MIT"
+}
